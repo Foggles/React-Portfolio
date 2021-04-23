@@ -15,10 +15,11 @@ export default function Header() {
                     <Nav.Link href="/">About</Nav.Link>
                     <Nav.Link href="/project1">Project 1</Nav.Link>
                     <Nav.Link href="/project2">Project 2</Nav.Link>
+                    <Nav.Link href="/project3">Project 3 - WIP</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <Nav.Link href="/readme_generator">README Generator</Nav.Link>
+                        <Nav.Link href="/password_generator">Password Generator</Nav.Link>
+                        <Nav.Link href="/team_profile_generator">Team Profile Generator</Nav.Link>
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>

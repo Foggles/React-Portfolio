@@ -20,14 +20,17 @@ function App() {
         <Route exact path="/project2">
           <Project text="Project2"/>
         </Route>
-        <Route exact path="/">
-          <Project />
+        <Route exact path="/project3">
+          <Project text="Project3 - WIP"/>
         </Route>
-        <Route exact path="/">
-          <Project />
+        <Route exact path="/readme_generator">
+          <Project text="Readme Generator"/>
         </Route>
-        <Route exact path="/">
-          <Project />
+        <Route exact path="/password_generator">
+          <Project text="Password Generator"/>
+        </Route>
+        <Route exact path="/team_profile_generator">
+          <Project text="Team Profile Generator"/>
         </Route>
         <Route exact path="/">
           <Project />
