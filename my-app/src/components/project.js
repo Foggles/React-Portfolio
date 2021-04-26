@@ -19,7 +19,7 @@ export default function Project(props) {
             <Row>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={`../public/projectImages/${props.fileName}/${props.fileName}_1.PNG`} />
                         <Card.Body>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk
