@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 
 export default function Header() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+        <Navbar bg="primary" expand="lg" fixed="top">
             <Navbar.Brand href="/">Jack Fogarty Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 
 export default function Footer() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" fixed="bottom">
+        <Navbar bg="primary" expand="lg" fixed="bottom">
             <Navbar.Brand><h6 style={{opacity: 0.5}}>Jack Fogarty Portfolio 2021</h6></Navbar.Brand>
         </Navbar>
     );

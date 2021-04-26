@@ -13,7 +13,7 @@ export default function About() {
     return (
         <Container>
             <Header />
-            <Row>
+            <Row className="navBarBug">
                 <Col>
                     <h1>Hello</h1>
                 </Col>
