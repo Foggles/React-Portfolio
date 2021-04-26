@@ -7,6 +7,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function About() {
     return (
@@ -17,6 +18,7 @@ export default function About() {
                     <h1>Hello</h1>
                 </Col>
             </Row>
+            <Footer />
         </Container>
     )
 };
