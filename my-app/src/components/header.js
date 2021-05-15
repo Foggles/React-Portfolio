@@ -13,7 +13,7 @@ export default function Header() {
                     <Nav.Link href="/">About</Nav.Link>
                     <Nav.Link href="/project1">Project 1</Nav.Link>
                     <Nav.Link href="/project2">Project 2</Nav.Link>
-                    <Nav.Link href="/project3">Project 3 - WIP</Nav.Link>
+                    <Nav.Link href="/project3">Project 3</Nav.Link>
                     <NavDropdown title="Other Projects" id="basic-nav-dropdown">
                         <Nav.Link href="/readme_generator">README Generator</Nav.Link>
                         <Nav.Link href="/password_generator">Password Generator</Nav.Link>

@@ -19,27 +19,25 @@ export default function Project(props) {
             <Row>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src={`../public/projectImages/${props.fileName}/${props.fileName}_1.PNG`} />
+                        <Card.Img variant="top" src={props.firstImage} />
                         <Card.Body>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
+                                {props.firstImageText}
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                    <h6>This is what the project is about.</h6>
+                    <h6>{props.summaryText}</h6>
                 </Col>
             </Row>
             <Row>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={props.secondImage} />
                         <Card.Body>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
+                                {props.secondImageText}
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -48,11 +46,10 @@ export default function Project(props) {
             <Row>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={props.thirdImage} />
                         <Card.Body>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
+                                {props.thirdImageText}
                             </Card.Text>
                         </Card.Body>
                     </Card>
