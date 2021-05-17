@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -6,6 +7,8 @@ import Card from "react-bootstrap/Card";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import { faServer } from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 export default function Project(props) {
     return (
@@ -18,7 +21,7 @@ export default function Project(props) {
             </Row>
             <Row>
                 <Col>
-                    <Card>
+                    <Card border="dark">
                         <Card.Img variant="top" src={props.firstImage} />
                         <Card.Body>
                             <Card.Text>
@@ -27,13 +30,26 @@ export default function Project(props) {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
-                    <h6>{props.summaryText}</h6>
+                <Col className="text-center">
+                    <Card border="dark">
+                        <Card.Body>
+                            <Card.Text>
+                                <h6>{props.summaryText}</h6>
+                                {props.deploymentLink == null ?
+                                    <>
+                                        <a class="link" href={props.repositoryLink} target="_blank"><FontAwesomeIcon icon={faGithubSquare} size="8x" /></a>
+                                    </> :
+                                    <><a class="link" href={props.deploymentLink} target="_blank"><FontAwesomeIcon icon={faServer} size="8x" /></a>
+                                        <a class="link" href={props.repositoryLink} target="_blank"><FontAwesomeIcon icon={faGithubSquare} size="8x" /></a>
+                                    </>}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <Card>
+                    <Card border="dark">
                         <Card.Img variant="top" src={props.secondImage} />
                         <Card.Body>
                             <Card.Text>
@@ -45,7 +61,7 @@ export default function Project(props) {
             </Row>
             <Row>
                 <Col>
-                    <Card>
+                    <Card border="dark">
                         <Card.Img variant="top" src={props.thirdImage} />
                         <Card.Body>
                             <Card.Text>
