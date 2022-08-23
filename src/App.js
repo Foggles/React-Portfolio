@@ -11,10 +11,9 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <About myPicture="https://res.cloudinary.com/denkxexyj/image/upload/v1623219338/IMG_1126_-_Copy_bujotw.jpg"
+          <About myPicture="https://res.cloudinary.com/denkxexyj/image/upload/v1661277461/bridge_qwlcwq.jpg"
             myName="Jack Fogarty"
-            firstParagraph="G'Day, I'm Jack. I'm a nineteen year old guy from Perth, WA who is currently a student in web
-          development. I am also currently doing my Bachelor of Information Technolgoy at Murdoch University."
+            firstParagraph="G'Day, I'm Jack. I'm a twenty year old guy from Perth, WA but I am currently living in the UK. "
             secondParagraph="I'm an avid gamer, particularly of Grand Strategy Games. I've also recently started collecting vinyl
           records in a wide range of genres. When it comes to music I have an ecclectic music
           taste, and enjoy music from practically any genre. However I would describe myself a metalhead,
