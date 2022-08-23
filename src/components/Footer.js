@@ -8,7 +8,7 @@ export default function Footer() {
             <br />
             <br />
             <br />
-            <Navbar variant="dark" bg="dark" expand="lg" fixed="bottom">
+            <Navbar variant="light" bg="dark" expand="lg" fixed="bottom">
                 <Navbar.Brand><h6 style={{ opacity: 0.5 }}>Jack Fogarty Portfolio 2022</h6></Navbar.Brand>
             </Navbar>
         </Container>
