@@ -8,8 +8,8 @@ export default function Footer() {
             <br />
             <br />
             <br />
-            <Navbar bg="primary" expand="lg" fixed="bottom">
-                <Navbar.Brand><h6 style={{ opacity: 0.5 }}>Jack Fogarty Portfolio 2021</h6></Navbar.Brand>
+            <Navbar variant="dark" bg="dark" expand="lg" fixed="bottom">
+                <Navbar.Brand><h6 style={{ opacity: 0.5 }}>Jack Fogarty Portfolio 2022</h6></Navbar.Brand>
             </Navbar>
         </Container>
     );
