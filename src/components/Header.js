@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 export default function Header() {
     return (
-        <Navbar variant="light" bg="dark" expand="lg" fixed="top">
+        <Navbar variant="light" bg="success" expand="lg" fixed="top">
             <Navbar.Brand href="/">Jack Fogarty Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
