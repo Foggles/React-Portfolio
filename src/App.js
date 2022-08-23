@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <About myPicture="https://res.cloudinary.com/denkxexyj/image/upload/v1661277461/bridge_qwlcwq.jpg"
+          <About myPicture="https://res.cloudinary.com/denkxexyj/image/upload/v1661280243/museum1_bqcpj4.jpg"
             myName="Jack Fogarty"
             firstParagraph="G'Day, I'm Jack. I'm a twenty year old guy from Perth, WA but I am currently living in the UK. "
             secondParagraph="I'm an avid gamer, particularly of Grand Strategy Games. I've also recently started collecting vinyl
