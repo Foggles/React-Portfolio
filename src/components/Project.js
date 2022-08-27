@@ -1,3 +1,6 @@
+// * Created by Jack Fogarty
+
+// Importing React, FontAwesome and React-Bootstrap components
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Container from "react-bootstrap/Container";
@@ -5,11 +8,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
+// Importing custom components and FontAwesome icons
 import Header from "./Header";
 import Footer from "./Footer";
 import { faServer } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
+// Declaring and defining the Project() function
+// props is the parameter for the Project() function
 export default function Project(props) {
     return (
         <Container>

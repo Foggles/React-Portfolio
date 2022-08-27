@@ -1,16 +1,22 @@
+// * Created by Jack Fogarty
+
+// Importing React, React-Router and CSS
 import React from 'react'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+// Importing components for use in Switch
 import About from "./components/About";
 import Project from "./components/Project";
 
+// Declaring and defining the App() function, which returns the React Web App
 function App() {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
+          {/* Each component (About or Project) has numerous props that feed into the components function parameter */}
           <About myPicture="https://res.cloudinary.com/denkxexyj/image/upload/v1661280243/museum1_bqcpj4.jpg"
             myName="Jack Fogarty"
             firstParagraph="G'Day, I'm Jack. I'm a twenty year old guy from Perth, WA but I am currently living in the UK. "
@@ -67,4 +73,5 @@ function App() {
   );
 }
 
+// Exporting the return of the App() function
 export default App;
